@@ -1,7 +1,7 @@
 # Configurations
 title:            ODW
 longtitle:        OverdriveWiki
-author:           Qxdfimd
+author:           OverdriveLab
 email:            3458715622@qq.com
 description: >
   这里是**一个致力于帮助大家学习研究有机化学和药学和精神病学的网站**
@@ -12,9 +12,6 @@ gitbook_version:  3.2.3
 url:              'https://qxdfimd.github.io'
 baseurl:          '/jekyll-gitbook'
 rss:              RSS
-
-# bootstrap: use the remote theme for the site itself
-remote_theme: sighingnow/jekyll-gitbook
 
 toc:
   enabled: true
