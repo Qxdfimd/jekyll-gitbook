@@ -49,9 +49,13 @@ exclude:
 collections:
   pages:
     output: true
-  drug:
+  文档:
     output: true
-  effect:
+  文件:
+    output: true
+  药物:
+    output: true
+  药效:
     output: true
   others:
     output: true
@@ -59,8 +63,9 @@ collections:
 ordered_collections:
   - pages
   - posts
-  - drug
-  - effect
+  - 文档
+  - 药物
+  - 药效
   - others
 
 page_width: 800px
