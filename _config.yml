@@ -46,25 +46,31 @@ exclude:
   - _drafts
 
 collections:
+
   pages:
     output: true
-  文档:
+  files:
     output: true
-  文件:
+    permalink: /文件/:path/
+  documents:
     output: true
-  药物:
+    permalink: /文档/:path/
+  drugs:
     output: true
-  药效:
+    permalink: /药物/:path/
+  effects:
     output: true
+    permalink: /药效/:path/
   others:
     output: true
+    permalink: /其他/:path/
 
 ordered_collections:
   - pages
   - posts
-  - 文档
-  - 药物
-  - 药效
+  - documents
+  - drugs
+  - effects
   - others
 
 defaults:
