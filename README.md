@@ -1,6 +1,7 @@
 ---
 title: 首页
 layout: home
+permalink: /
 ---
 
 # 欢迎来到 Overdrive Wiki
