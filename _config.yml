@@ -2,7 +2,6 @@
 title:            ODW
 longtitle:        OverdriveWiki
 author:           OverdriveLab
-email:            3458715622@qq.com
 description: >
   这里是**一个致力于帮助大家学习研究有机化学和药学和精神病学的网站**
 
@@ -67,6 +66,12 @@ ordered_collections:
   - 药物
   - 药效
   - others
+
+defaults:
+  - scope:
+      path: ""          # 空字符串代表站点根目录下的所有文件
+    values:
+      layout: "post"
 
 page_width: 800px
 
